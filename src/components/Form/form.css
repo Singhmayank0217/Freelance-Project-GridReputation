@@ -15,7 +15,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: #2499C0;
+  color: #2499C0 !important;
+}
+.form-data p{
+  color: #2499C0 !important;
 }
 
 
