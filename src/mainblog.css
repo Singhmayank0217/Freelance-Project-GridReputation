@@ -31,7 +31,7 @@ textarea {
   cursor: pointer;
   text-decoration: none;
   list-style-type: none;
-  color: white;
+  color: black;
 }
 ::placeholder {
   font-size: 17px;
