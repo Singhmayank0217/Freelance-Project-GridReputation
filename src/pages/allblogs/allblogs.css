@@ -1,0 +1,72 @@
+#allcontent{
+    background-color: #0a0a0a;
+}
+
+#head {
+    /* padding: 4rem; */
+    padding-left: 4rem;
+    margin-top: 4rem;
+    font-size: 4rem;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    color: #2499c0;
+}
+
+.subHead {
+    font-size: 1.7rem;
+    color: 2499c0;
+    font-weight: 600;
+}
+
+.subHeadd {
+    display: inline;
+    font-size: 1.7rem;
+    color: 2499c0;
+    font-weight: 600;
+}
+
+#abtCont {
+    line-height: 2;
+    font-size: 1.5rem;
+    padding: 1rem 4rem 2rem;
+    color: white;
+}
+
+.newtext span {
+    color: #2499c0;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:900px) {
+    #head {
+        padding: 2rem;
+        /* padding-left: 5rem; */
+        margin-top: 5.7rem;
+        font-size: 4rem;
+        padding-bottom: 0.5rem;
+        font-weight: 600;
+        color: white;
+    }
+
+    #abtCont {
+        padding-inline: 2rem;
+        line-height: 2.2;
+    }
+
+    .newtext {
+        max-width: unset;
+        /* text-align: center; */
+    }
+
+    .newtext span {
+        color: #2499c0;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 0.8;
+    }
+
+    .subHeadd {
+        font-size: 1.3rem;
+    }
+}

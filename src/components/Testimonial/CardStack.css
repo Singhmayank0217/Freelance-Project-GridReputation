@@ -1,0 +1,67 @@
+body {
+  background-color: #0A0A0A; 
+}
+
+.card-stack-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 18%; 
+  margin-bottom: 15%;
+  padding: 50px; 
+}
+
+.cards {
+  position: absolute;
+  left: 10%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  left: 17%;
+  width: 52rem; 
+  max-width: calc(100% - 4rem); 
+  box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.2); 
+  transition: top 0.5s ease-in-out; 
+}
+.testimonials-title {
+  position: absolute;
+  width: 500px;
+  height: 80%;
+  top: -150px;
+  margin-bottom: 20px;
+  left: 35px;
+  z-index: 2;
+}
+
+.testimonials-title h2 {
+  margin: 0;
+  font-size: 42px;
+  color: #33BAF0;
+}
+
+.testimonials-title p {
+  margin-left: 6px;
+  margin-top:9px;
+  margin-bottom: 10px;
+  font-size: 20px; 
+  color: #fff;
+}
+
+.con {
+  font-size: 25px;
+  font-weight: 700;
+  color:#2499C0 ;
+}
+
+.card-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #60F6C9;
+}
+
+.card-des {
+  font-size: 15px;
+  font-weight: bold;
+}

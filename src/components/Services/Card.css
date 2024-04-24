@@ -1,0 +1,102 @@
+.card {
+  position: relative;
+  border: 1px solid #1e1d1d;
+  border-radius: 8px;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  max-width: 350px;
+  overflow: hidden;
+  background-color: #111827;
+  color: white;
+  transition: box-shadow 0.3s ease; 
+}
+
+.card:hover {
+  box-shadow: 0px 0px 30px 10px rgba(114, 184, 221, 0.379);
+}
+
+.read-more-button {
+  display: block;
+  margin-top: 10px;
+  background-color: transparent;
+  color: #2499c0;
+  border: none;
+  cursor: pointer;
+}
+
+.service-button {
+  border: 1px solid black;
+  background-color: #2499c0;
+  border-radius: 50px;
+  width: 80%;
+  margin-top: 10px;
+  left: 50%;
+  transform: translateX(10%);
+}
+
+.service-button:hover {
+  background-color: #368a9c;
+}
+
+.card h2 {
+  color: white;
+  font-size: 1.2rem;
+  padding-bottom: 8px;
+}
+
+.card p {
+  color: #59687E;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.card.hovered {
+  border-color: #368a9c; 
+}
+
+.form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; 
+  height: 100vh; 
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999; 
+}
+
+.form-data {
+  width: 50%; 
+  max-width: 500px; 
+  border: 2px solid #2adde3;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #2499C0;
+ 
+}
+
+.close-button {
+  position: absolute;
+  top: 68px;
+  right: 32%;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #2499C0;
+}
+.meteor-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none; /* Prevent Meteors from interfering with hover effects */
+}

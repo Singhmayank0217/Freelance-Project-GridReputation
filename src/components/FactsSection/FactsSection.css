@@ -1,0 +1,85 @@
+.fact-container {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: #0a0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.scroll-up {
+    transform: translateY(-100%);
+}
+
+.scroll-down {
+    transform: translateY(0);
+}
+
+.facts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add margin between rows */
+}
+
+.col {
+    flex: 1;
+}
+
+.fact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 250px;
+    height: 125px;
+    padding: 10px;
+    border-radius: 17px;
+    background-color: #2499C0;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); 
+}
+
+@media (max-width: 768px) {
+    .fact-item {
+        width: calc(50% - 20px);
+    }
+}
+
+.fact-number {
+    font-size: 35px;
+    color: white;
+}
+
+.fact-description {
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+/* Animation */
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

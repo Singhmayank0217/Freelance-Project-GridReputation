@@ -1,0 +1,89 @@
+/* Offer.css */
+.offers {
+  width: 100vw;
+  margin: 50px 25px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.offers h2 {
+  color: #33baf0;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.offers span {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.offers-container {
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-right: 80px;
+  gap: 80px;
+}
+
+.offer {
+  position: relative; /* Ensure the position is relative for absolute positioning of Meteors */
+  background-color: #111827;
+  height: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(42, 74, 75, 0.1);
+}
+
+.offer h3 {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.offer p {
+  font-size: 21px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.meteor-container {
+  position: absolute; /* Position the Meteors relative to the ServiceCard */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Ensure Meteors don't overflow from ServiceCard */
+}
+
+/* Define animations */
+.animated-from-top {
+  animation: fadeInFromTop 1s ease-out;
+}
+
+.animated-from-bottom {
+  animation: fadeInFromBottom 1s ease-out;
+}
+
+@keyframes fadeInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
