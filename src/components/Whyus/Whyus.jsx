@@ -17,7 +17,7 @@ const Whyus = () => {
             } else {
                 setScrollDirection('up');
             }
-            lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
+            // lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
         };
 
         window.addEventListener('scroll', handleScroll);
